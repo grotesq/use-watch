@@ -1,0 +1,22 @@
+{
+  "name": "@grotesq/use-watch",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/grotesq/use-watch",
+  "main": "dist/useWatch.js",
+  "scripts": {
+    "build": "tsc src/useWatch.ts --declaration --allowJs --sourceMap --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
